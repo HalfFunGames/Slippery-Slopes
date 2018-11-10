@@ -27,9 +27,9 @@ public class Movement : MonoBehaviour {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-        /*if (rb.position.y < -1f)
+        if (rb.position.y < -1f)
         {
             FindObjectOfType<GameManager>().EndGame();
-        }*/
+        }
     }
 }
